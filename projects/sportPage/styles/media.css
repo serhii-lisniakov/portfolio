@@ -1,0 +1,271 @@
+@media (min-width: 720px) {
+  .header {
+    text-align: left;
+    background-image: url(../images/headerBackground.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .header__buttons {
+    justify-content: flex-start;
+    padding-bottom: 159px;
+  }
+  .header__buttons a:first-child {
+    margin-right: 36px;
+  }
+  .header__title {
+    max-width: 50%;
+    font-size: 2.25rem;
+    margin-top: 140px;
+  }
+  .header__subtitle {
+    max-width: 41%;
+    font-size: 1.125rem;
+  }
+  .header__buttons img {
+    max-width: 156px;
+  }
+  .logo {
+    padding-top: 60px;
+  }
+  .what__it__does .container {
+    flex-direction: row;
+  }
+  .what__it__does__media {
+    width: 56%;
+    margin: 0;
+  }
+  .what__it__does .whatItDoes__text {
+    max-width: 38%;
+    text-align: left;
+    padding: 65px 0 15px 0;
+  }
+  .what__it__does {
+    background: linear-gradient(
+        270deg,
+        #ffffff 50%,
+        rgba(255, 255, 255, 67.14%),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url(../images/ronaldoFight.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 592px;
+  }
+  .whatItDoes {
+    display: flex;
+  }
+  .get__started .container {
+    display: flex;
+  }
+  .get__started__image {
+    min-height: 716px;
+  }
+  .get__started__image img {
+    right: -437px;
+    max-height: 716px;
+  }
+  .get__started .whatItDoes__text {
+    text-align: left;
+    max-width: 50%;
+    padding-top: 136px;
+  }
+  .get__started .whatItDoes__text .blocks__paragraph {
+    max-width: 83%;
+  }
+  /* .get__started__image::before {
+    width: 91px;
+    height: 91px;
+    margin: 0;
+    top: 150px;
+    right: 50px;
+  }
+  .get__started__image::after {
+    width: 91px;
+    height: 91px;
+    top: 480px;
+    left: 110px;
+  } */
+  .notification__bell {
+    background: #ffffff url(../images/bell.svg) center no-repeat;
+    width: 91px;
+    height: 91px;
+    top: 21%;
+    left: -141px;
+  }
+  .notification__bell::after {
+    font-size: 16px;
+  }
+  .notification__cart {
+    width: 91px;
+    height: 91px;
+    top: 67%;
+    left: 109px;
+  }
+  .getUpWith .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .getUpWith__text {
+    text-align: left;
+    padding-top: 80px;
+  }
+  .getUpWith .header__buttons {
+    padding-bottom: 10px;
+  }
+  .getUpWith__image {
+    max-height: 483px;
+    width: 666px;
+  }
+  .footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer_nav {
+    margin: 0;
+    padding: 0;
+    order: 0;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .footer .logo {
+    padding: 0;
+  }
+  .footer {
+    padding: 48px 0;
+  }
+  .slider .slick-arrow.slick-prev {
+    left: 10%;
+    background-color: #fff;
+  }
+  .slider .slick-arrow.slick-next {
+    right: 10%;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 920px) {
+  .features {
+    color: #fff;
+    background-image: url(../images/Group696.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .features__main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature {
+    width: 50%;
+    text-align: left;
+  }
+  .feature svg {
+    fill: #fff;
+    margin-left: 15px;
+  }
+  .point {
+    display: inline;
+  }
+  .feature .blocks__paragraph {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1120px) {
+  /* .container__slider {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 10%,rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1));
+    } */
+  .getUpWith .header__buttons {
+    padding-bottom: 100px;
+  }
+  .getUpWith__text {
+    max-width: 48%;
+    margin-left: auto;
+  }
+  .getUpWith__image {
+    display: none;
+  }
+  .background {
+    background-image: url(../images/footerBackground.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .feature {
+    width: 29%;
+  }
+  .whatItDoes__schedule {
+    width: 360px;
+    height: 218.06px;
+  }
+  .whatItDoes__schedule__time {
+    font-size: 16.7833px;
+    line-height: 22px;
+    margin: 5px 0;
+  }
+  .whatItDoes__schedule__teams {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+  .whatItDoes__schedule__matchType {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 9px 0;
+  }
+  .image__block img {
+    height: 83.87px;
+  }
+  .whatItDoes__schedule__notifications {
+    font-size: 18.8812px;
+    line-height: 25px;
+    height: 49.27px;
+  }
+  .switch::before {
+    width: 20.99px;
+    height: 20.97px;
+    top: -9px;
+  }
+  .switch::after {
+    width: 27.29px;
+    height: 12.58px;
+  }
+  .image__block img:first-child {
+    right: 73px;
+  }
+  .whatItDoes__video img {
+    width: 360px;
+    height: 218.27px;
+  }
+  .whatItDoes__video {
+    transform: translate(-59%, 30%);
+  }
+  .whatItDoes__schedule {
+    transform: translate(-89%, -55%);
+  }
+  .whatItDoes__text {
+    padding-bottom: 115px;
+  }
+  .notification__cart {
+    background-image: url(../images/phoneWithArrowBlack.svg);
+  }
+  .notification__cart::after {
+    visibility: hidden;
+  }
+}
+@media (min-width: 2000px) {
+  .header {
+    background-position: 50vw;
+  }
+  .what__it__does {
+    background: linear-gradient(
+        90deg,
+        #ffffff 1%,
+        rgba(255, 255, 255, 50%),
+        #fff 90%
+      ),
+      url(../images/ronaldoFight.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

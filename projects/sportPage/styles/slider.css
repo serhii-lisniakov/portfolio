@@ -1,0 +1,132 @@
+/* SLIDER */
+.container__slider {
+  max-width: 1440px;
+  padding: 0px 25px 0px;
+  text-align: center;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.container__slider::before {
+  content: "";
+  height: 100%;
+  width: 15%;
+  background-color: rgb(238, 20, 20, 1);
+  background: linear-gradient(90deg, #ffffff 1%, rgba(255, 255, 255, 0) 90%);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.container__slider::after {
+  content: "";
+  height: 100%;
+  width: 15%;
+  background-color: rgb(238, 20, 20, 1);
+  background: linear-gradient(270deg, #ffffff 1%, rgba(255, 255, 255, 0) 90%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.slider__section {
+  text-align: center;
+  position: relative;
+  padding-bottom: 70px;
+}
+.slider__section .block__title {
+  padding-bottom: 39px;
+}
+.slider__item {
+  min-width: 309px;
+  width: 309px;
+  max-width: 309px;
+  height: 161px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f4f4f;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+.slider__item:first-child {
+  margin-left: 0;
+}
+.slider__item__header__username {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+.slider__item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 13px 18px 17px;
+}
+.userimage {
+  border: 2px solid #00adee;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider__item__comment {
+  padding: 0 13px 0 17px;
+  text-align: left;
+}
+.slider__item__header a:hover {
+  opacity: 0.7;
+}
+
+.slick-track {
+  display: flex;
+}
+.slider {
+  position: relative;
+  min-width: 0;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 25%;
+  z-index: 2;
+  font-size: 0;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid #00adee;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.slider .slick-arrow.slick-prev {
+  left: -20px;
+  background: url(../images/arrowSliderLeft.svg) 15px 15px no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: -20px;
+  background: url(../images/arrowSliderRight.svg) center 15px no-repeat;
+}
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 11px;
+  height: 11px;
+  background-color: #828282;
+  border-radius: 50%;
+  margin: 47px 11px 0;
+}
+.slider .slick-dots li.slick-active button {
+  background-color: #fff;
+  border: 2px solid #828282;
+}
+.slider .slick-arrow.slick-disabled {
+  visibility: hidden;
+}

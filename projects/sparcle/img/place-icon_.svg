@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="17" viewBox="0 0 11 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="523" y="551" width="11" height="17" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="place-icon_" data-name="place-icon " class="cls-1" d="M528.5,550.994a5.546,5.546,0,0,0-5.508,5.571c0,2.952,5,10.941,5.219,11.28a0.341,0.341,0,0,0,.578,0c0.213-.339,5.219-8.328,5.219-11.28A5.546,5.546,0,0,0,528.5,550.994Zm0,16.009c-0.453-.742-1.373-2.277-2.283-3.978-1.661-3.105-2.539-5.338-2.539-6.46a4.822,4.822,0,1,1,9.644,0c0,1.122-.878,3.355-2.539,6.46C529.872,564.726,528.953,566.261,528.5,567Zm0-13.368a2.565,2.565,0,1,0,2.605,2.565A2.588,2.588,0,0,0,528.5,553.635Zm0,4.436a1.872,1.872,0,1,1,1.919-1.871A1.9,1.9,0,0,1,528.5,558.071Z" transform="translate(-523 -551)"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="50" viewBox="0 0 113 50">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        font-size: 30px;
+        fill: #59c8d6;
+        font-family: "Avenir Next LT Pro";
+        font-weight: 700;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo_" data-name="Logo " class="cls-1">
+    <text id="sparcle." class="cls-2" x="0.621" y="42.548">sparcle.</text>
+    <image id="icon" x="54" width="47" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAABrUlEQVRIic3XP0hWYRTH8Y8VCGUhEmJhhDSIgUGEDQ4KBkE45GBD2qRT0BIhZQRCCjVUIA1hQ3+IlqDNWhQHKVDEqWhIsT8QbREEYhYaTxzhJfDm9j6/5bnccy58n3N/z7nnVpydeSdDVeMizuAQfmIOD/EU6wl5R4bgzXiBA/iOWexCOzrQjR4sb8sAtlR78RL7cRV1aMOxeAMpdhr30zO5wQ+iHgO4EXbZ0Cd04TV60ZIb/Dl8wd1N4r9wLa57coJPlqnFDH4X5L3CGppygl+Ldft/8lK8IuXnBP8Nn9GKyoK89oB/m5vnH4d1rmwS34mb8Zae5AZ/C4sYwm3UlMSOYBJHMYY3OX5hGzCOw3FwF7A7WmjSA5zH6r+VTzfnw3fl0oeo7oXoLHuwgmc4gf4EnthKK5/89DWSJ3CyjBvYkjYqn9brAb4aO+zMnP0vdB+WcCkOS2dsYDyGonJaqFAJfhQHo8+eihPdG+3oeEHbygJ+KMBTW3oewI8i9r5gzii7EuAd7MO96KVTqIohqTEOb7bwwuOX04Afg/90/LFkrdI+/wPD+IiR3MHhD0WSVqq51VoHAAAAAElFTkSuQmCC"/>
+  </g>
+</svg>

@@ -18,7 +18,7 @@ body {
       rgba(58, 59, 68, 0.52),
       rgba(43, 6, 33, 0.73)
     ),
-    url(../styles/images/milky-way-2695569_1920.webp);
+    url(../styles/images/milky-way-2695569_1920.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -82,7 +82,7 @@ body {
 .avatar {
   width: 500px;
   height: 500px;
-  background: url(./images/myPhotoFinal.webp) center no-repeat;
+  background: url(./images/myPhotoFinal.png) center no-repeat;
   border: 10px solid rgb(115, 119, 146);
   border-radius: 50%;
   border-style: double;

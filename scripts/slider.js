@@ -17,6 +17,7 @@ $(document).ready(function () {
         settings: {
           infinite: false,
           arrows: false,
+          centerMode: true,
         },
       },
     ],

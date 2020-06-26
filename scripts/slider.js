@@ -16,6 +16,7 @@ $(document).ready(function () {
         breakpoint: 720,
         settings: {
           infinite: false,
+          arrows: false,
         },
       },
     ],

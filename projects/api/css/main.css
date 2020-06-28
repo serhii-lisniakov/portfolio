@@ -761,27 +761,27 @@ html, body {
   margin-right: 10px;
 }
 
-.no-webp .technologies:nth-child(1) .technologies__img {
+.no-webp .technologies__item:nth-child(1) .technologies__img {
   background: url(../img/automotive@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies:nth-child(2) .technologies__img {
+.no-webp .technologies__item:nth-child(2) .technologies__img {
   background: url(../img/radar-long-range@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies:nth-child(3) .technologies__img {
+.no-webp .technologies__item:nth-child(3) .technologies__img {
   background: url(../img/radar-low-cost@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies:nth-child(4) .technologies__img {
+.no-webp .technologies__item:nth-child(4) .technologies__img {
   background: url(../img/vision@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies:nth-child(5) .technologies__img {
+.no-webp .technologies__item:nth-child(5) .technologies__img {
   background: url(../img/thermal@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
@@ -883,27 +883,27 @@ html, body {
   margin-right: 10px;
 }
 
-.no-webp .technologies2:nth-child(1) .technologies2__img {
+.no-webp .technologies2__item:nth-child(1) .technologies2__img {
   background: url(../img/learning@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies2:nth-child(2) .technologies2__img {
+.no-webp .technologies2__item:nth-child(2) .technologies2__img {
   background: url(../img/thermal@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies2:nth-child(3) .technologies2__img {
+.no-webp .technologies2__item:nth-child(3) .technologies2__img {
   background: url(../img/radar-long-range@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies2:nth-child(4) .technologies2__img {
+.no-webp .technologies2__item:nth-child(4) .technologies2__img {
   background: url(../img/bruck@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }
 
-.no-webp .technologies2:nth-child(5) .technologies2__img {
+.no-webp .technologies2__item:nth-child(5) .technologies2__img {
   background: url(../img/thermal2@2x.png) center center no-repeat;
   background-size: 160px 160px;
 }

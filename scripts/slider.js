@@ -1,16 +1,17 @@
 $(document).ready(function () {
   $(".slider").slick({
     dots: true,
-    slidesToshow: 4,
+    slidesToshow: 3,
     slidesToScroll: 1,
-    speed: 1000,
+    speed: 400,
     // infinite: false,
-    initialSlide: 2,
+    initialSlide: 1,
     variableWidth: true,
     centerMode: true,
     autoplay: true,
     autoplaySpeed: 2000,
     waitForAnimate: false,
+    lazyLoad: 'ondemand',
     responsive: [
       {
         breakpoint: 720,

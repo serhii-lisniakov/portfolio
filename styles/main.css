@@ -333,6 +333,7 @@ html, body {
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
+  margin: 0 auto;
 }
 .slick-track {
   display: flex;

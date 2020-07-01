@@ -311,13 +311,11 @@ html, body {
 .slider__item.slick-center {
   opacity: 1;
 }
-.slider__item:first-child {
-  margin-left: 0;
-}
 .slider__item a {
   display: inline-block;
   overflow: hidden;
   max-height: 400px;
+  margin: 0 auto;
 }
 .slider__item a img {
   position: relative;

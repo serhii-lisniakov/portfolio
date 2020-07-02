@@ -214,21 +214,14 @@ html, body {
   }
 }
 .header__title-product {
+  background: url(../img/back1@2x.webp) center right no-repeat;
+  background-size: 1340px 525px;
   margin-top: 34px;
   position: relative;
   left: -140px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-}
-.hero {
-  background: url(../img/back1@2x.webp) center right no-repeat;
-  background-size: 1340px 525px;
-}
-@media (max-width: 525px) {
-  .hero {
-    background-position: -150px 0;
-  }
 }
 @media (max-width: 1000px) {
   .header__title-product {
@@ -244,6 +237,7 @@ html, body {
 @media (max-width: 525px) {
   .header__title-product {
     width: 100vw;
+    background-position: -150px 0;
   }
 }
 @media (min-width: 1441px) {

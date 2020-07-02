@@ -13,6 +13,7 @@ $(document).ready(function () {
     centerMode: true,
     autoplay: false,
     waitForAnimate: true,
+    centerPadding: '0px',
   });
 });
 function burgerMenu(selector) {

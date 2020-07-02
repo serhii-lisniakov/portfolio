@@ -237,7 +237,8 @@ html, body {
 @media (max-width: 525px) {
   .header__title-product {
     width: 100vw;
-    background-position: -150px 0;
+    background-position-x: -150px;
+    background-position-y: -150px;
   }
 }
 @media (min-width: 1441px) {

@@ -401,12 +401,34 @@ html, body {
     background: url(../img/back1@2x.png) center center no-repeat;
     background-size: 1340px 525px;
   }
-
+}
+@media (max-width: 525px) {
   .no-webp .header__title-company {
     background: url(../img/bkgd-m.jpg) center center no-repeat;
     background-size: 525px 245px;
   }
 }
+@media (max-width: 465px) {
+  .no-webp .header__title-company {
+    background-size: 465px 217px;
+  }
+}
+@media (max-width: 410px) {
+  .no-webp .header__title-company {
+    background-size: 410px 186px;
+  }
+}
+@media (max-width: 360px) {
+  .no-webp .header__title-company {
+    background-size: 360px 163px;
+  }
+}
+@media (max-width: 345px) {
+  .no-webp .header__title-company {
+    background-position-x: -22px;
+  }
+}
+
 .burger-menu_button {
   position: absolute;
   top: -11px;

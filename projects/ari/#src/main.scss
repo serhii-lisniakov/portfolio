@@ -325,10 +325,25 @@ html, body {
         background: url(../img/back1@2x.png) center center no-repeat;
         background-size: 1340px 525px;
     }
-    .no-webp .header__title-company{
+}
+.no-webp .header__title-company {
+    @media (max-width:525px) {
         background: url(../img/bkgd-m.jpg) center center no-repeat;
         background-size: 525px 245px;
-    } 
+    }
+    @media (max-width:465px) {
+        background-size: 465px 217px;
+    }
+    @media (max-width:410px) {
+        background-size: 410px 186px;
+    }
+    @media (max-width:360px) {
+        background-size: 360px 163px;
+    }
+    @media (max-width:345px) {
+        background-position-x: -22px;
+    }
+
 }
 .burger-menu_button {
     position: absolute;

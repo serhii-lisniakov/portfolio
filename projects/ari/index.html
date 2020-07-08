@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARI</title>
+    <link rel="stylesheet" href="./css/reset.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="header__logo">
+              <a href="#">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="img/logo.webp 1x, img/logo@2x.webp 2x"
+                  />
+                  <img
+                    src="./img/logo.png"
+                    srcset="img/logo@2x.png 2x"
+                    alt="logo"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="header__nav">
+              <nav>
+                <ul>
+                  <li><a href="#solutions">SOLUTIONS</a></li>
+                  <li><a href="#technologies">TECHNOLOGIES</a></li>
+                  <li><a href="#video">VIDEO</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="burger-menu">
+              <a href="" class="burger-menu_button">
+                <span class="burger-menu_lines"></span>
+              </a>
+              <nav class="burger-menu_nav">
+                <a href="#solutions" class="burger-menu_link">SOLUTIONS</a>
+                <a href="#technologies" class="burger-menu_link"
+                  >TECHNOLOGIES</a
+                >
+                <a href="#video" class="burger-menu_link">VIDEO</a>
+                <a href="#contact" class="burger-menu_link">CONTACT</a>
+              </nav>
+              <div class="burger-menu_overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="header__title header__title-product">
+          <picture class="header__background">
+            <source
+              type="image/webp"
+              srcset="img/back1.webp 1x, img/back1@2x.webp 2x"
+            />
+            <img
+              src="./img/back1.png"
+              srcset="img/back1@2x.png 2x"
+              alt="back"
+            />
+          </picture>
+          <h2>Sensors Beyond Human Perception</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="solutions" id="solutions">
+        <div class="container-sm">
+          <h2 class="solutions__title px-3">Solutions</h2>
+          <div class="row solutions__items">
+            <div class="solutions__item">
+              <div class="solutions__item-image">
+                <img src="./img/gears.svg" alt="two gears" />
+              </div>
+              <h3>Automotive & Industrial</h3>
+              <p>Long range High Resolution radar</p>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__item-image">
+                <img src="./img/shield.svg" alt="shield" />
+              </div>
+              <h3>Safety & Privacy</h3>
+              <p>Occupancy Detection</p>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__item-image">
+                <img src="./img/heart.svg" alt="heart" class="heart-icon" />
+              </div>
+              <h3>Health</h3>
+              <p>
+                Vital signs monitoring from <br />
+                a safe distance
+              </p>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__item-image">
+                <img src="./img/human.svg" alt="human" />
+              </div>
+              <h3>Entertainment</h3>
+              <p>
+                Touchless interactive displays <br />
+                and Gesture Recognition
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="technologies" id="technologies">
+        <div class="container-sm">
+          <h2 class="technologies__title px-3">Technologies</h2>
+          <div class="technologies__items row-cols-1">
+            <div class="technologies__item">
+              <div class="technologies__img">
+                01
+              </div>
+              <div class="technologies__item-text">
+                <h4>Machine Learning</h4>
+                <ul>
+                  <li>
+                    Machine discovery insights from
+                    multidimensional, complex data
+                  </li>
+                  <li>
+                    Object classification on non-human readable
+                    signal data
+                  </li>
+                  <li>Reliable anomaly detection on sensors</li>
+                  <li>
+                    Truly cross-validated algorithms built from an
+                    unparalleled database of fusion sensors
+                  </li>
+                  <li>
+                    Optimized for low-cost, low-power processors
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="technologies__item">
+              <div class="technologies__img">
+                02
+              </div>
+              <div class="technologies__item-text">
+                <h4>Radar - Long Range</h4>
+                <ul>
+                  <li>
+                    Wide field of view high resolution sensor data
+                  </li>
+                  <li>
+                    Robust object identification, classification
+                    and prioritization minimizing false alarms among clutter4D
+                    radar (3D spatial, plus velocity)
+                  </li>
+                  <li>
+                    Consistent performance regardless of dust and
+                    weather
+                  </li>
+                  <li>Solid state sensor with no moving parts</li>
+                </ul>
+              </div>
+            </div>
+            <div class="technologies__item">
+              <div class="technologies__img">
+                03
+              </div>
+              <div class="technologies__item-text">
+                <h4>Radar - Low Cost</h4>
+                <ul>
+                  <li>
+                    Anonymous and Robust Object Identification
+                  </li>
+                  <li>
+                    Consistent performance regardless of dust,
+                    weather and lighting
+                  </li>
+                  <li>
+                    Highly integrated solutions, including Wi-Fi
+                    and LTE backhaul
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="technologies__item">
+              <div class="technologies__img">
+                04
+              </div>
+              <div class="technologies__item-text">
+                <h4>Vision</h4>
+                <ul>
+                  <li>3D tracking by sensor fusion technology</li>
+                  <li>Object detection with depth perception</li>
+                  <li>
+                    Leveraging machine vision for training sensor
+                    fusion
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="technologies__item">
+              <div class="technologies__img">
+                05
+              </div>
+              <div class="technologies__item-text">
+                <h4>Thermal Imaging</h4>
+                <ul>
+                  <li>
+                    ML-based person detection for reduced false
+                    alarms
+                  </li>
+                  <li>
+                    Optimized ML processing for low-power
+                    processing
+                  </li>
+                  <li>
+                    Learning algorithms improve accuracy over time
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="video" id="video">
+        <div class="container-sm">
+          <h2 class="video__title px-3">Title for this section</h2>
+        </div>
+        <div class="slider">
+          <div class="slider__item">
+            <div class="slider__video">
+              <video controls width="100%" height="300" src="#"></video>
+              <div class="video-overlay">
+                <img class="play" src="./img/play.svg" alt="play" />
+              </div>
+            </div>
+            <div class="slider__description">
+              <h4>Video 1</h4>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__video">
+              <video controls width="100%" height="300" src="#"></video>
+              <div class="video-overlay">
+                <img class="play" src="./img/play.svg" alt="play" />
+              </div>
+            </div>
+            <div class="slider__description">
+              <h4>Video 1</h4>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__video">
+              <video controls width="100%" height="300" src="#"></video>
+              <div class="video-overlay">
+                <img class="play" src="./img/play.svg" alt="play" />
+              </div>
+            </div>
+            <div class="slider__description">
+              <h4>Video 1</h4>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__video">
+              <video controls width="100%" height="300" src="#"></video>
+              <div class="video-overlay">
+                <img class="play" src="./img/play.svg" alt="play" />
+              </div>
+            </div>
+            <div class="slider__description">
+              <h4>Video 1</h4>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer orange white" id="contact">
+      <div class="container-lg footer__content">
+        <div class="col-3 footer__title">About</div>
+        <div class="col">
+          <div class="footer__about">
+            Led by industry veterans, we are a full-stack team of radio
+            engineers, physicists, and data scientists building next generation
+            radar, vision and thermal imaging systems in the heart of Silicon
+            Valley.
+          </div>
+          <div class="footer__contacts">
+            sales@augmentedradar.com | support@augmentedradar.com |
+            info@augmentedradar.com
+          </div>
+          <div class="footer__copyright">
+            © 2020 Augmented Radar Imaging, Inc. All rights reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

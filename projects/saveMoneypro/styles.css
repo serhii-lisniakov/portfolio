@@ -1,3 +1,4 @@
+body,html{margin:0;padding:0}ol,ul{list-style:none;margin:0;padding:0}*,:after,:before{box-sizing:border-box;font:inherit}:active,:focus,a:active,a:focus{outline:none}a,a:visited{text-decoration:none;cursor:pointer;color:inherit}a:hover{text-decoration:none}input,select{-webkit-appearance:none;appearance:none}input::-ms-clear{display:none}input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appearance:none}input[type=number]{-moz-appearance:textfield}h1,h2,h3,h4,h5,h6,p{margin:0}
 html,
 body {
   font-size: 14px;

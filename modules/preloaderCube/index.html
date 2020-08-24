@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="preloader.css">
+</head>
+<body>
+    <div id="preloader" class="preloader">
+        <div class="loader">
+            <div id="cube-loader">
+              <div class="caption">
+                <div class="cube-loader">
+                  <div class="cube loader-1"></div>
+                  <div class="cube loader-2"></div>
+                  <div class="cube loader-4"></div>
+                  <div class="cube loader-3"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <script>
+    document.body.onload = function() {
+
+        setTimeout(function() {
+            var preloader = document.getElementById('preloader');
+            // if(!preloader.classList.contains('preloader_hidden') ) {
+            //     preloader.classList.add('preloader_hidden');
+            // }
+        }, 1000);
+
+    }
+</script>
+</body>
+</html>
